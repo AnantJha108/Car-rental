@@ -78,7 +78,7 @@
                                     <div class="col-md-6">
                                         <div class="field-set">
                                             <label>Password:</label>
-                                            <input type='text' name='password'  class="form-control" required autocomplete="off" minlength="8">
+                                            <input type='password' name='password'  class="form-control" required autocomplete="off" minlength="8">
                                             @error('password')
                                             {{ $message }}
                                             @enderror
@@ -88,7 +88,7 @@
                                     <div class="col-md-6">
                                         <div class="field-set">
                                             <label>Re-enter Password:</label>
-                                            <input type='text' name='re-password' class="form-control" required autocomplete="off" minlength="8">
+                                            <input type='password' name='re-password' class="form-control" required autocomplete="off" minlength="8">
                                             @error('re-password')
                                             {{ $message }}
                                             @enderror

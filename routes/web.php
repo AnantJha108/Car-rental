@@ -44,7 +44,7 @@ Route::middleware(['web', 'auth:web'])->group(function () {
 Route::get('/dashboard', [RegisterController::class, 'dashboard'])->name('dashboard');
 });
 // ->middleware(['auth','verified']);
- Route::get('/logout',[RegisterController::class, 'logout'])->name('logout');
+Route::get('/logout',[RegisterController::class, 'logout'])->name('logout');
 Route::get('/verify/{token}/{email}', [RegisterController::class, 'verifyAccount'])->name('verify_account');
 // Route::get('/login',[LoginController::class,'index'])->name('login');
 

@@ -207,7 +207,7 @@
                                             @enderror
                                         </div>
                                         <div class="field-set">
-                                            <input type="text" name="password" class="form-control"
+                                            <input type="password" name="password" class="form-control"
                                                 placeholder="Password" required autocomplete="off" />
                                             @error('password')
                                                 {{ $message }}

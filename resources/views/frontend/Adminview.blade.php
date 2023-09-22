@@ -176,7 +176,7 @@
                                       <th scope="col"><span class="text-uppercase fs-12 text-gray">Customer status</span></th>
                                     </tr>
                                   </thead>
-                                  {{-- <tbody>
+                                  <tbody>
                                     @foreach ($users as $item)
                                     <tr>
                                       <td><span class="d-lg-none d-sm-block">Customer ID</span><div class="badge bg-gray-100 text-dark">{{$item->id}}</div></td>
@@ -192,7 +192,7 @@
                                         
                                     </tr>
                                     @endforeach 
-                                  </tbody> --}}
+                                  </tbody>
                                 </table>
                         </div>
 
@@ -216,7 +216,7 @@
                                     </tr>
                                   </thead>
                                   <tbody>
-                                    {{-- @foreach ($companyes as $items)
+                                    @foreach ($company as $items)
                                     <tr>
                                       <td><span class="d-lg-none d-sm-block">ID</span><div class="badge bg-gray-100 text-dark">{{$items->id}}</div></td>
                                       <td><span class="d-lg-none d-sm-block">Name</span><span class="bold">{{$items->name}}</span></td>
@@ -233,7 +233,7 @@
                                      @endif
                                     </td>
                                     </tr>
-                                    @endforeach  --}}
+                                    @endforeach 
                                   </tbody>
                                 </table>
                         </div>

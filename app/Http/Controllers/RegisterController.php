@@ -49,8 +49,6 @@ class RegisterController extends Controller
             'link' => $verificationLink
         ];
         Mail::to($request->email)->send(new Websitemailer($mailSubject, $userData));
-
-
         // return "Registered Succesfully. A verification Email will be send to your email Address".$request->email."Please Click on the click to verify";
         return view('frontend/registermailpage')->with($userData) ;
        
